@@ -1,0 +1,45 @@
+body {
+	font-family: Dosis, sans-serif;
+	background: linear-gradient(rgba(51,55,61,0.7), rgba(11, 47,102,0.7)), 
+              url('https://images.unsplash.com/photo-1467810160588-c86c0deb5d16?ixlib=rb-0.3.5&s=3aaa19cb6487c8c770303420cc7e0bda&auto=format&fit=crop&w=1950&q=80') 0% 0%; 
+	background-size: cover;
+	background-position: center;
+}
+
+.text {
+	text-align: center;
+	text-transform: uppercase;
+	color: #daa520;
+	font-weight: 100;
+}
+
+.container-cover {
+	/*border: 1px solid red;*/
+	height: 100vh;
+	/*display: flex;*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-cover {
+	background-image: url(https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d8d433acb5dbf4d2478af28854ff90a&auto=format&fit=crop&w=1950&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 600px;
+	border: 1px solid #daa520;
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	transition: all, 1s;
+}
+
+.col-cover:hover {
+	width: 30vh;
+	height: 30vh;
+}
+
+.link {
+	width: 100%;
+	height: 100%;
+}
